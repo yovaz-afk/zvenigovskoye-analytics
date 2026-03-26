@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Шпаргалка продавца — Звениговский Ямал</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f0f4ff; color: #1a1a1a; line-height: 1.65; font-size: 14px; }
+.page { max-width: 900px; margin: 0 auto; padding: 24px 20px 48px; }
+h1 { font-size: 1.6em; color: #1a3a6b; border-bottom: 3px solid #2563eb; padding-bottom: 8px; margin-bottom: 6px; }
+h2 { font-size: 1.1em; background: #1a3a6b; color: white; padding: 8px 14px; border-radius: 6px; margin: 32px 0 14px; }
+h3 { font-size: 1em; color: #1a3a6b; border-left: 4px solid #2563eb; padding-left: 10px; margin: 20px 0 8px; font-weight: 700; }
+.topbar { background: #1a3a6b; color: white; text-align: center; padding: 10px; font-size: 0.85em; font-weight: 600; margin-bottom: 24px; letter-spacing: .4px; }
+.card { background: white; border-radius: 10px; padding: 16px 18px; margin: 12px 0; box-shadow: 0 1px 5px rgba(0,0,0,.08); }
+.card-red { border-left: 5px solid #dc2626; }
+.card-blue { border-left: 5px solid #2563eb; }
+.card-green { border-left: 5px solid #16a34a; }
+.card-yellow { border-left: 5px solid #ca8a04; }
+.portrait { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 12px 0; }
+.p-card { background: white; border-radius: 8px; padding: 14px 16px; box-shadow: 0 1px 4px rgba(0,0,0,.08); border-top: 4px solid #2563eb; }
+.p-name { font-weight: 700; color: #1a3a6b; font-size: 1em; }
+.p-who { font-size: 0.82em; color: #666; margin: 3px 0 8px; }
+.say { background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 6px; padding: 8px 12px; margin: 6px 0; font-style: italic; color: #1e3a8a; }
+.say::before { content: '💬 '; font-style: normal; }
+.dont { background: #fef2f2; border: 1px solid #fecaca; border-radius: 6px; padding: 8px 12px; margin: 6px 0; color: #991b1b; }
+.dont::before { content: '🚫 '; }
+.do { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 6px; padding: 8px 12px; margin: 6px 0; color: #14532d; }
+.do::before { content: '✅ '; }
+table { border-collapse: collapse; width: 100%; margin: 10px 0 16px; font-size: 0.86em; background: white; border-radius: 7px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,.07); }
+th { background: #1a3a6b; color: white; padding: 8px 12px; text-align: left; }
+td { padding: 7px 12px; border-bottom: 1px solid #eee; }
+tr:last-child td { border-bottom: none; }
+tr:nth-child(even) td { background: #f0f4ff; }
+.rule { background: #fefce8; border: 2px solid #fbbf24; border-radius: 8px; padding: 14px 16px; margin: 10px 0; }
+.rule-title { font-weight: 700; color: #92400e; font-size: 1em; margin-bottom: 6px; }
+.big { font-size: 1.3em; font-weight: 700; color: #1a3a6b; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 12px 0; }
+@media print {
+  body { background: white; font-size: 12px; }
+  .page { padding: 10px; }
+  h2 { margin-top: 20px; }
+}
+</style>
+</head>
+<body>
+<div class="topbar">ЗВЕНИГОВСКИЙ ЯМАЛ · Шпаргалка продавца · Версия март 2026 · Распечатать и держать под рукой</div>
+<div class="page">
+
+<h1>Шпаргалка продавца</h1>
+<p style="color:#555; margin-bottom:4px;">Кто к тебе приходит, что им предложить и что сказать. Чем лучше ты понимаешь покупателя — тем выше твой результат и выручка магазина.</p>
+
+<h2>РАЗДЕЛ 1. КТО ПРИХОДИТ — 5 ГЛАВНЫХ ПОРТРЕТОВ</h2>
+
+<div class="portrait">
+<div class="p-card">
+<div class="p-name">👩 Хозяйка стола</div>
+<div class="p-who">Женщина 35–54 лет · Главный покупатель сети</div>
+<strong>Что хочет:</strong> накормить семью на несколько дней. Берёт много и сразу.<br><br>
+<strong>Средний чек:</strong> 1 200–2 000 руб<br>
+<strong>Когда:</strong> Четверг–Пятница, после работы<br><br>
+<div class="say">«Возьмите ещё фарш — у нас сегодня свежий завоз, хватит на котлеты и пельмени»</div>
+<div class="say">«Если берёте говядину — добавьте рёбра на суп, хорошо сочетается»</div>
+</div>
+
+<div class="p-card">
+<div class="p-name">🧔 Хозяин выходных</div>
+<div class="p-who">Мужчина 35–44 лет · Высокий чек</div>
+<strong>Что хочет:</strong> мясо на шашлык или большой ужин. Решает быстро.<br><br>
+<strong>Средний чек:</strong> 1 500–3 000 руб<br>
+<strong>Когда:</strong> Суббота, до полудня<br><br>
+<div class="say">«Маринованная свинина сегодня отличная — вчера завезли. Брать точно стоит»</div>
+<div class="say">«Для большой компании берут обычно 2 кг шеи + рёбра — хватает на всех»</div>
+</div>
+
+<div class="p-card">
+<div class="p-name">👵 Постоянная</div>
+<div class="p-who">Женщина 55+ · Чаще всех ходит</div>
+<strong>Что хочет:</strong> свежее, небольшими порциями, от знакомого продавца.<br><br>
+<strong>Средний чек:</strong> 400–700 руб<br>
+<strong>Когда:</strong> Любой будний день, утро<br><br>
+<div class="say">«Здравствуйте! Сегодня печень очень свежая, знаю что вы любите»</div>
+<div class="do">Запомнить имя и что обычно берёт. Это её главная ценность — её знают.</div>
+</div>
+
+<div class="p-card">
+<div class="p-name">👩‍💼 Молодая хозяйка</div>
+<div class="p-who">Женщина 25–34 · Цифровой покупатель</div>
+<strong>Что хочет:</strong> что-то быстрое, понятное, без лишних вопросов.<br><br>
+<strong>Средний чек:</strong> 500–900 руб<br>
+<strong>Когда:</strong> Вечер будней, 18–20ч<br><br>
+<div class="say">«Это котлеты домашние — без добавок, только мясо. На сковороде 15 минут»</div>
+<div class="say">«Если берёте куриное — возьмите и бёдра, они сочнее грудки»</div>
+</div>
+</div>
+
+<div class="card card-blue" style="margin-top:8px;">
+<strong>Пятый портрет — Корпоратив 🏢</strong><br>
+Женщина 35–44 организует закупку для офиса или мероприятия. Берёт много, платит картой, хочет гарантию качества.<br>
+<div class="say" style="margin-top:8px;">«Для корпоратива лучше оформить заранее — отложим нужный объём. Скажите за день — подготовим»</div>
+</div>
+
+<h2>РАЗДЕЛ 2. ЧТО И КОМУ ПРЕДЛАГАТЬ</h2>
+
+<table>
+<tr><th>Кто пришёл</th><th>Что предложить дополнительно</th><th>Что сказать</th></tr>
+<tr><td>Берёт фарш</td><td>Свежая говядина на котлеты / лук и специи</td><td>«К фаршу возьмите говядину — домашние котлеты выходят лучше»</td></tr>
+<tr><td>Берёт куриное</td><td>Куриный суповой набор / маринованное</td><td>«К бёдрам возьмите спинки на бульон — выйдет полноценный обед»</td></tr>
+<tr><td>Берёт свинину</td><td>Маринованная шея / рёбра / сало</td><td>«У нас сейчас отличная маринованная — пятница, как раз к выходным»</td></tr>
+<tr><td>Берёт говядину</td><td>Говяжьи рёбра / печень / фарш</td><td>«Рёбра возьмите — на суп самое то, и к говядине хорошо идут»</td></tr>
+<tr><td>Маленький чек до 400 руб</td><td>Что-то из готовых позиций / полуфабрикаты</td><td>«Котлеты домашние сегодня есть — готовить 15 минут, может возьмёте?»</td></tr>
+<tr><td>Пришёл в субботу</td><td>Шашлычный набор / маринованное 2 кг</td><td>«На выходные берёте? Шашлычный набор есть — всё готово, только гриль разжечь»</td></tr>
+<tr><td>Первый раз</td><td>Популярная позиция + рассказ о программе</td><td>«Вы первый раз? Зарегистрируйтесь в UDS — накапливаете бонусы с каждой покупки»</td></tr>
+</table>
+
+<h2>РАЗДЕЛ 3. ЗОЛОТЫЕ ПРАВИЛА ПРОДАВЦА</h2>
+
+<div class="grid2">
+<div class="rule">
+<div class="rule-title">⏱ Правило первого слова</div>
+Как только клиент подошёл к витрине — заговори первым. Не жди вопроса. «Что ищете сегодня?» или «Сегодня отличная телятина — только что завезли». Молчание = потерянная продажа.
+</div>
+
+<div class="rule">
+<div class="rule-title">🎯 Правило одного предложения</div>
+Не засыпай клиента вариантами. Одно предложение — конкретное. «Возьмите ещё рёбра» лучше, чем «Может вам ещё что-то нужно?». Конкретика работает, общие вопросы — нет.
+</div>
+
+<div class="rule">
+<div class="rule-title">📱 Правило карты лояльности</div>
+Каждому новому клиенту — предложить UDS. Коротко: «Накапливаете бонусы, списываете при следующей покупке. Скачать займёт минуту». Не предложил — магазин потерял клиента навсегда.
+</div>
+
+<div class="rule">
+<div class="rule-title">👴 Правило постоянных</div>
+Запомни 10–15 постоянных покупателей. Имя. Что обычно берут. «Здравствуйте, Тамара Николаевна! Печень сегодня хорошая» — это не продажа, это отношения. Именно за это возвращаются.
+</div>
+</div>
+
+<h2>РАЗДЕЛ 4. ЧТО НЕ ДЕЛАТЬ НИКОГДА</h2>
+
+<div class="card card-red">
+<div class="dont">Не говорить «Ничего не могу поделать» или «Я не знаю» — лучше: «Уточню прямо сейчас» или «Завтра завезут, могу отложить»</div>
+<div class="dont">Не позволять клиенту уйти с чеком меньше 500 руб без попытки апселла — одно предложение ничего не стоит</div>
+<div class="dont">Не говорить «У нас нет» — говорить «Сегодня нет, но есть похожее» и предлагать альтернативу</div>
+<div class="dont">Не забывать здороваться с постоянными по имени — они замечают, когда их не узнают</div>
+<div class="dont">Не игнорировать клиента, который «просто смотрит» — именно такие покупают на 2000 руб, если им помочь</div>
+</div>
+
+<h2>РАЗДЕЛ 5. ВРЕМЯ И ТАКТИКА ДНЯ</h2>
+
+<table>
+<tr><th>Время/день</th><th>Кто приходит</th><th>Тактика</th></tr>
+<tr><td>Будни 9–12ч</td><td>Женщины 55+, пенсионеры</td><td>Медленно, внимательно, запомни их. Небольшие порции по просьбе.</td></tr>
+<tr><td>Будни 13–16ч</td><td>Смешанный поток</td><td>Стандартный день. Держи витрину в порядке, предлагай 1 доп. позицию.</td></tr>
+<tr><td>Будни 17–20ч</td><td>Молодые женщины, работающие</td><td>Быстро, чётко, без лишних слов. Готовые решения «на ужин».</td></tr>
+<tr><td><strong>Пятница 15–20ч</strong></td><td>Все + мужчины</td><td>🔥 Пик трафика. Активно предлагать маринованное и наборы на выходные.</td></tr>
+<tr><td><strong>Суббота до 14ч</strong></td><td>Мужчины, большие корзины</td><td>🏆 Высший чек. Шашлык, наборы, маринованное. Не торопи — дай выбрать.</td></tr>
+<tr><td>Воскресенье</td><td>Семьи</td><td>Семейные покупки. Предлагай «на всю неделю», суповые наборы.</td></tr>
+<tr><td>Понедельник</td><td>Самый слабый трафик</td><td>Максимально активный апселл каждому клиенту.</td></tr>
+</table>
+
+<h2>РАЗДЕЛ 6. ФРАЗЫ, КОТОРЫЕ РАБОТАЮТ</h2>
+
+<div class="card card-green">
+<h3 style="border-color:#16a34a; margin-top:0;">Открытие разговора</h3>
+<div class="say">«Сегодня завезли свежую телятину — посмотрите?»</div>
+<div class="say">«Что готовить будете — подскажу что лучше взять»</div>
+<div class="say">«На выходные берёте или на будни?» — сразу понимаешь тип покупки</div>
+
+<h3 style="border-color:#16a34a;">Апселл (добавить к корзине)</h3>
+<div class="say">«К этому хорошо идёт... / Обычно берут вместе с...»</div>
+<div class="say">«Возьмите ещё [позиция] — сегодня очень свежая»</div>
+<div class="say">«Раз уж берёте, добавьте [X] — потом отдельно не будете идти»</div>
+
+<h3 style="border-color:#16a34a;">Регистрация в UDS</h3>
+<div class="say">«У вас есть карта лояльности? С каждой покупки копятся бонусы — можно списать как деньги»</div>
+<div class="say">«Телефон дайте — зарегистрирую, сейчас начислю бонусы за эту покупку»</div>
+
+<h3 style="border-color:#16a34a;">Когда нет нужного товара</h3>
+<div class="say">«Этого сейчас нет, но есть похожее — [альтернатива]. Попробуете?»</div>
+<div class="say">«Завтра завезут — могу отложить, скажите сколько нужно»</div>
+</div>
+
+<h2>РАЗДЕЛ 7. ТРИ ЧИСЛА, КОТОРЫЕ НАДО ЗНАТЬ</h2>
+
+<div class="grid2">
+<div class="card card-blue" style="text-align:center; padding:20px;">
+<div class="big">871 ₽</div>
+<p style="color:#555; margin-top:4px;">Средний чек по сети.<br>Твоя задача — держать выше.</p>
+</div>
+<div class="card card-green" style="text-align:center; padding:20px;">
+<div class="big">945 ₽</div>
+<p style="color:#555; margin-top:4px;">Средний чек в субботу.<br>Лучший день — используй его.</p>
+</div>
+<div class="card card-yellow" style="text-align:center; padding:20px;">
+<div class="big">21%</div>
+<p style="color:#555; margin-top:4px;">Покупок до 300 руб.<br>Каждый второй ждёт твоего предложения.</p>
+</div>
+<div class="card card-red" style="text-align:center; padding:20px;">
+<div class="big">1 предложение</div>
+<p style="color:#555; margin-top:4px;">Одна фраза продавца<br>= +400–600 руб к чеку</p>
+</div>
+</div>
+
+<hr style="border-top:2px solid #ddd; margin:32px 0;">
+<p style="text-align:center; color:#888; font-size:0.8em;">Звениговский Ямал · Шпаргалка продавца · Март 2026 · Обновляется ежеквартально</p>
+</div>
+</body>
+</html>
